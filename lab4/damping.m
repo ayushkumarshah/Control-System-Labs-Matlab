@@ -1,0 +1,18 @@
+m=1;
+b=10;
+k=500;
+num=[0 0 1];
+den=[m b k];
+step(num,den);
+hold on;
+b=44.7;
+den=[m b k];
+step(num,den);
+hold on;
+b=100;
+den=[m b k];
+step(num,den);
+text(0.2,0.0027,'b=10');
+text(0.13,0.0015,'b=44.7');
+text(0.2,0.001,'b=100');
+hold off;
